@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "203519858181",
+    "project_id": "messengerapp-6958b",
+    "storage_bucket": "messengerapp-6958b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203519858181:android:2ed6e89ad762ddd67a6e6c",
+        "android_client_info": {
+          "package_name": "kz.nagmet.messenger_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUNU8NvR4GFlDAIQ6q5r1T3CcgCQI9chU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
