@@ -10,8 +10,8 @@ class MyMessages {
       context: context,
       builder: (BuildContext context) {
         return CupertinoAlertDialog(
-          title: Text('Log in success!'),
-          content: Text('Welcome back'),
+          title: Text('Вход успешен!'),
+          content: Text('Добро пожаловать обратно'),
           actions: <Widget>[
             CupertinoDialogAction(
               child: Text('OK'),
@@ -32,8 +32,8 @@ class MyMessages {
       context: context,
       builder: (BuildContext context) {
         return CupertinoAlertDialog(
-          title: Text('Successfully registered!'),
-          content: Text('Welcome to Book tracker application!'),
+          title: Text('Регистрация успешна!'),
+          content: Text('Добро пожаловать!'),
           actions: <Widget>[
             CupertinoDialogAction(
               child: Text('OK'),
@@ -58,7 +58,7 @@ class MyMessages {
       context: context,
       builder: (BuildContext context) {
         return CupertinoAlertDialog(
-          title: Text('Something gets wrong!'),
+          title: Text('Что-то пошло не так!'),
           content: Text('$errorMessage'),
           actions: <Widget>[
             CupertinoDialogAction(
