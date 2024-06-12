@@ -33,7 +33,7 @@ class ContactBloc extends Bloc<ContactEvent, ContactState> {
         yield ContactLoadedState(loadedContactlist: _contactList);
       }catch (e) {
         yield ContactErrorState();
-        print('${e}');
+        print('Error here: ${e}');
       }
     }
   }
